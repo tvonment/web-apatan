@@ -1,0 +1,63 @@
+baseURL       = "http://example.org/"
+languageCode  = "ch-de"
+title         = "Apatan | Official"
+theme         = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Apatan"
+    url     = ""
+    extern  = false
+    weight  = 1
+  [[menu.nav]]
+    name    = "Facebook"
+    url     = "https://www.facebook.com/apatan.band/"
+    extern  = true
+    weight  = 4  
+  [[menu.nav]]
+    name    = "Instagram"
+    url     = "https://www.instagram.com/apatanofficial/"
+    extern  = true
+    weight  = 5
+  [[menu.nav]]
+    name    = "Kontakt"
+    url     = "contact"
+    extern  = false
+    weight  = 6
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Apatan | Offizieller Webauftritt der Band"
+  author = "APATAN"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+
+  
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpeg"
+    heading               = ""
+    tagline               = ""
+    primary_button        = "Kontakt"
+    primary_button_url    = "#site-contact"
+    secondary_button      = "Gigs"
+    secondary_button_url  = "#events"
+
+  [params.about]
+    image = "images/apatan/about.jpg"
+    description = "Wir sind zu viert, jung und voller Elan. Mit treibenden Grooves und einer souligen Stimme strahlt Apatan ungebrochene Spielfreude aus. Mal heiter hoch fliegend, mal sphärisch schwebend verbinden wir verschiedene Musikstilrichtungen zu unserem eigenen Sound."
+    expertise_title = "Ideal für"
+    expertise_sectors = ["Hallenkonzerte", "Open Airs", "Wohnzimmerkonzert",  "Strassenfest", "im Zelt", "Hochzeiten", "Geburtstage", ".. und alles andere auch."]
+
+  [params.footer]
+    # Footer Service
+    [params.footer.service]
+      title       = "Engagiere uns!"
+      description = "Eine aufgestellte Band für jeden Anlass"

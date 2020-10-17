@@ -1,0 +1,41 @@
+<section class="site-about-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="site-about-wrapper">
+          <div class="site-about-company">
+            <div>
+              <img src="{{ .Site.Params.about.image }}" alt="image" style="width: 100%">
+            </div>
+          </div>
+          <div class="site-about-description">
+            <p>
+                {{ .Site.Params.about.description }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-expertise">
+  <div class="container">
+    <div class="row">
+      {{ with .Site.Params.about.expertise_title }}
+      <div class="col-md-5">
+        <div class="section-title">
+          <h2>{{ . }}</h2>
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-md-6">
+        <ul class="site-expertise-list">
+          {{ range .Site.Params.about.expertise_sectors }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

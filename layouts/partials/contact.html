@@ -1,0 +1,41 @@
+{{ with .Site.Data.contact }}
+<section class="site-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <h1 class="site-contact-title">Kontakt</h1>
+        <p><img class="icon-img" src="images/icons/contact/png/021-email.png" alt=""><a href="mailto:{{ .email }}">{{ .email }}</a></p>
+        <p><img class="icon-img" src="images/icons/contact/png/030-telephone.png" alt=""><a href="mailto:{{ .phone }}">{{ .phone }}</a></p>
+        </div>
+        <div class="col-lg-6 ml-auto">
+          <div class="site-contact-form">
+            <h4>{{ .formspreeTitle }}</h4>
+            <form id="contact-form" action="{{ .formspreeFormUrl }}" method="POST">
+              <div class="row">
+                <div class="col-lg-6">
+                  <input type="text" class="form-control" name="first-name" id="first-name" placeholder="Name">
+                </div>
+                <div class="col-lg-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="col-12">
+                  <textarea class="form-control" id="aboutProject" name="about-project" rows="6" placeholder="Ihre Nachricht"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary" id="contact-form-button">
+                    <span class="btn-area">
+                      <span data-text="und los">
+                        Senden
+                      </span>
+                    </span>
+                  </button>
+                </div>
+                <p id="contact-form-status"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}

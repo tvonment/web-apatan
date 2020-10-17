@@ -1,0 +1,22 @@
+enable  : true
+title   : Bandmitglieder
+members  :
+  - image       : images/team/lea.jpg
+    icon        : images/icons/musicians/png/singer-4.png
+    name        : Lea von Mentlen
+    designation : Gesang
+
+  - image       : images/team/micha.jpg
+    icon        : images/icons/musicians/png/drummer-1.png
+    name        : Micha Surber
+    designation : Schlagzeug
+
+  - image       : images/team/doran.jpg
+    icon        : images/icons/musicians/png/electric-guitar-3.png
+    name        : Doran Weisser
+    designation : Gitarre
+
+  - image       : images/team/moreno.jpg
+    icon        : images/icons/musicians/png/piano.png
+    name        : Moreno Knöpfel
+    designation : Klavier
