@@ -8,24 +8,24 @@ summarylength = 25
 [menu]
   # Navbar Menus
   [[menu.nav]]
-    name    = "Apatan"
-    url     = ""
-    extern  = false
+    name    = "Gigs"
+    url     = "#gigs"
     weight  = 1
+  [[menu.nav]]
+    name    = "Band"
+    url     = "#about"
+    weight  = 2
   [[menu.nav]]
     name    = "Facebook"
     url     = "https://www.facebook.com/apatan.band/"
-    extern  = true
     weight  = 4  
   [[menu.nav]]
     name    = "Instagram"
     url     = "https://www.instagram.com/apatanofficial/"
-    extern  = true
     weight  = 5
   [[menu.nav]]
     name    = "Kontakt"
-    url     = "contact"
-    extern  = false
+    url     = "#contact"
     weight  = 6
 
 # Site Params
@@ -38,7 +38,6 @@ summarylength = 25
   # Google Analitycs
   googleAnalitycsID = "Your ID"
 
-  
   # Banner Section
   [params.banner]
     enable                = true
@@ -46,9 +45,9 @@ summarylength = 25
     heading               = ""
     tagline               = ""
     primary_button        = "Kontakt"
-    primary_button_url    = "#site-contact"
+    primary_button_url    = "#contact"
     secondary_button      = "Gigs"
-    secondary_button_url  = "#events"
+    secondary_button_url  = "#gigs"
 
   [params.about]
     image = "images/apatan/about.jpg"

@@ -1,31 +1,92 @@
 title: Nächste Gigs
+pastTitle: Vergangene Gigs
+description: Kommen Sie bei unserem nächsten Gig vorbei!
 gigs:
 - name: Apatan Live
   kind: Kultur am Adventsmarkt
-  date: 06. Dezember 2020
-  time: tbd
+  image: images/apatan/ApatanKulti.jpeg
+  date: 2020-12-06
   location: Rehetobel AR
   description: Wir spielen weil wir es können.
 
-- name: Apatan Live
-  kind: Hochzeit
-  date:
-  time:
-  location:
-  description:
+
+- name: Muespacherstrassen-Fest
+  kind: Strassenfest
+  date: 2020-08-29T00:00:00Z
+  location: Basel
+
+- name: Openair am Mausacker
+  kin: Open Air
+  date: 2020-08-14T00:00:00Z
+  location: Steinebrunn TG
+
+- name: Musikfabrik
+  kind: Apatan Live
+  date: 2020-02-28T00:00:00Z
+  location: Herisau
+
+- name: Café C
+  kind: Apatan Live
+  date: 2019-12-06T00:00:00Z
+  location: Herisau
+
+- name: Schwarzer Engel
+  date: 2019-11-05T00:00:00Z
+  location: St. Gallen
+    
+- name: Grabenhalle
+  kind: Apatan Live
+  date: 2019-10-18T00:00:00Z
+  location: St. Gallen
+    
+- name: HEMA
+  kind: Messe
+  date: 2019-09-27T00:00:00Z
+  location: Herisau
   
-- name: Apatan Live
-  kind:
-  date:
-  time:
-  location:
-  description:
+- name: Tüüfner Gassefest
+  kind: Strassenfest
+  date: 2019-09-07T00:00:00Z
+  location: Teufen
+
+- name: Lieder- und Kulturfest
+  kind: JUBLA Open Air
+  date: 2019-08-31T00:00:00Z
+  location: Härkingen SO
   
-- name: Apatan Live
-  kind:
-  date:
-  time:
-  location:
-  description:
+- name: Badi Heiden
+  kind: Open Air
+  date: 2019-08-16T00:00:00Z
+  location: Heiden
+
+- name: „Im altä Pilgers“
+  date: 2019-07-13T00:00:00Z
+  location: Dürnten ZH
+
+    
+- name: Restaurant Marktplatz
+  kind: Privatkonzert
+  date: 2019-06-02T00:00:00Z
+  location: Herisau
+
+- name: UHT-Afterparty
+  kind: Konzert Festzelt
+  date: 2019-05-04T00:00:00Z
+  location: Restaurant Sonnenfeld Herisau
   
+- name: Theater
+  kind: Apatan Live
+  date: 2018-04-05T00:00:00Z
+  location: St. Gallen
+
+- name: RAB-Bar
+  kind: Apatan Live
+  date: 2018-12-14T00:00:00Z
+  location: Trogen
+
+- name: Kulturbrunch TanzRaum
+  kind: Konzert zum Frühstück
+  time: 11:00
+  date: 2018-11-18T00:00:00Z
+  location: Herisau
   

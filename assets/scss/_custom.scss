@@ -1,4 +1,19 @@
+.site-hero {
+    .mx-auto {
+        padding: 4rem 0;
+        background-color: rgba(0,0,0,.7);
+    }
+    img {
+        width: 80%;
+    }
+}
+
+
 .icon-img {
     width: 2.5rem;
     padding-right: 1rem;
+}
+
+.site-contact a {
+    color: $primary-color;
 }
