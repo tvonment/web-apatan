@@ -1,4 +1,4 @@
-baseURL       = "http://example.org/"
+baseURL       = "https://icy-wave-07c2c9f03.azurestaticapps.net/"
 languageCode  = "ch-de"
 title         = "Apatan | Official"
 theme         = "roxo-hugo"
