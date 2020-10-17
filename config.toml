@@ -1,4 +1,4 @@
-baseURL       = "https://icy-wave-07c2c9f03.azurestaticapps.net/"
+baseURL       = "https://www.apatan.ch/"
 languageCode  = "ch-de"
 title         = "Apatan | Official"
 theme         = "roxo-hugo"
