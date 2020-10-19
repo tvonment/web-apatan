@@ -1,13 +1,18 @@
 .site-hero {
+    .container {
+        @include desktop-lg{
+            padding-top: 25vh;            
+        }
+    }
+
     .mx-auto {
         padding: 4rem 0;
         background-color: rgba(0,0,0,.7);
-    }
-    img {
-        width: 80%;
+        img {
+            width: 50%;
+        }
     }
 }
-
 
 .icon-img {
     width: 2.5rem;
