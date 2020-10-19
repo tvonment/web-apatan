@@ -41,7 +41,7 @@ summarylength = 25
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/hero-background.jpeg"
+    background_image      = "images/backgrounds/bandxost.jpeg"
     heading               = ""
     tagline               = ""
     primary_button        = "Kontakt"
