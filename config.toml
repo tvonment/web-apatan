@@ -48,6 +48,7 @@ summarylength = 25
     primary_button_url    = "#contact"
     secondary_button      = "Gigs"
     secondary_button_url  = "#gigs"
+    arrowlink             = "#gigs"
 
   [params.about]
     image = "images/apatan/about.jpg"
