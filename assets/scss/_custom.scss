@@ -1,3 +1,10 @@
+html, body {
+    overflow-x: hidden;
+}
+body {
+    position: relative;
+}
+
 .site-hero {
     .mx-auto {
         padding: 4rem 0;
