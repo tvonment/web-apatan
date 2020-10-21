@@ -1,3 +1,4 @@
+/* SideScroll Fix */
 html, body {
     overflow-x: hidden;
 }
@@ -5,6 +6,7 @@ body {
     position: relative;
 }
 
+/* Custom Hero */
 .site-hero {
     .mx-auto {
         padding: 4rem 0;
@@ -14,12 +16,12 @@ body {
         }
     }
 }
-
 .icon-img {
     width: 2.5rem;
     padding-right: 1rem;
 }
 
+/* Custom Color for Link Tags in Contact Area */
 .site-contact a {
     color: $primary-color;
 }
