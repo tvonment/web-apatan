@@ -30,7 +30,7 @@ summarylength = 25
 
 # Site Params
 [params]
-  logo = "images/logo.png"
+  logo = "/images/logo.png"
   dateFormat = "26 FEB 1994"
   # Meta data
   description = "Apatan | Offizieller Webauftritt der Band"
@@ -41,7 +41,7 @@ summarylength = 25
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/bandxost.jpeg"
+    background_image      = "/images/backgrounds/bandxost.jpeg"
     heading               = ""
     tagline               = ""
     primary_button        = "Kontakt"
@@ -51,7 +51,7 @@ summarylength = 25
     arrowlink             = "#gigs"
 
   [params.about]
-    image = "images/apatan/about.jpg"
+    image = "/images/apatan/about.jpg"
     description = "Wir sind zu viert, jung und voller Elan. Mit treibenden Grooves und einer souligen Stimme strahlt Apatan ungebrochene Spielfreude aus. Mal heiter hoch fliegend, mal sphärisch schwebend verbinden wir verschiedene Musikstilrichtungen zu unserem eigenen Sound."
     expertise_title = "Ideal für"
     expertise_sectors = ["Hallenkonzerte", "Open Airs", "Wohnzimmerkonzert",  "Strassenfest", "im Zelt", "Hochzeiten", "Geburtstage", ".. und alles andere auch."]
