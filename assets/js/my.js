@@ -30,3 +30,14 @@ function addSocialIcons() {
 document.addEventListener("DOMContentLoaded", function(){
     addSocialIcons();
 });
+
+// Smooth scroll
+$('a').on('click', function (event) {
+    if (event.target.hash.startsWith('#')) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('href')).offset().top - 50)
+        }, 700);
+        event.preventDefault();
+    }
+});
