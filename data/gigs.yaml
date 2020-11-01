@@ -4,7 +4,7 @@ description: Kommen Sie bei unserem nächsten Gig vorbei!
 gigs:
 - name: Apatan Live
   kind: EP Plattentaufe
-  image: images/apatan/ApatanKulti.jpeg
+  image: images/apatan/show.png
   date: 2020-12-12
   time: Abend
   location: OYA Club St. Gallen
@@ -13,7 +13,7 @@ gigs:
 
 - name: Apatan Live
   kind: Kultur am Adventsmarkt
-  image: images/apatan/ApatanKulti.jpeg
+  image: images/apatan/show.png
   date: 2020-12-06
   location: Rehetobel AR
   description: Wir spielen weil wir es können.
