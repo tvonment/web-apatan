@@ -2,21 +2,21 @@ title: Nächste Gigs
 pastTitle: Vergangene Gigs
 description: Kommen Sie bei unserem nächsten Gig vorbei!
 gigs:
-- name: Apatan Live
+- name: ABGESAGT :(
   kind: EP Plattentaufe
   image: images/apatan/show.png
   date: 2020-12-12
-  time: Abend
   location: OYA Club St. Gallen
   description: Wir spielen weil wir es können.
 
 
-- name: Apatan Live
+- name: ABGESAGT :(
   kind: Kultur am Adventsmarkt
   image: images/apatan/show.png
   date: 2020-12-06
   location: Rehetobel AR
   description: Wir spielen weil wir es können.
+
 
 
 - name: Muespacherstrassen-Fest

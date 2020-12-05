@@ -1,0 +1,56 @@
+{{ with .Site.Data.incontrast }}
+<section class="site-about-header" id="incontrast">
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+            <h1>{{ .title }}</h1>
+            <p>
+            {{ .description }}
+            </p>
+        </div>
+        </div>
+    </div>
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="site-about-wrapper" >
+                    <div class="site-about-description text-center" style="margin-bottom: 1em;">
+                        <ul class="site-hero-content-buttons">
+                            <li>
+                              <a href="{{ .applemusic }}" target="_blank" class="btn btn-secondary" style="background-color: #10d9fd;">
+                                <span class="btn-area" >
+                                  <span data-text="Apple Music">
+                                    Apple Music                                  
+                                </span>
+                                </span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="{{ .spotify }}" target="_blank" class="btn btn-primary" style="background-color: #f3561b;">
+                                <span class="btn-area">
+                                  <span data-text="Spotify">
+                                    Spotify
+                                  </span>
+                                </span>
+                              </a>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="site-about-company" style="background-color: #213e53;">
+                        <div>
+                        <img src="{{ .cover }}" alt="image" style="width: 100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-12">
+                <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/ch/album/in-contrast-ep/1538748382"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
