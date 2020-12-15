@@ -19,7 +19,7 @@
         {{ range .Site.Menus.nav }} 
           {{ if hasPrefix .URL "#contact" }}
           <li class="nav-item">
-            <a class="nav-link btn btn-sm btn-primary btn-sm-rounded" href="{{ .URL }}">
+            <a class="btn btn-sm btn-primary btn-sm-rounded" href="{{ .URL }}">
               <span class="btn-area">
                 <span data-text="{{ .Name }}">
                   {{ .Name }}

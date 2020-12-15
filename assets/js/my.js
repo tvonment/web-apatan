@@ -37,6 +37,9 @@ document.addEventListener("DOMContentLoaded", function(){
     loadBigImage();
 });
 
+$('.navbar-toggler').on('click', function () {
+    addSocialIcons();
+})
 
 // Smooth scroll
 $('a').on('click', function (event) {
