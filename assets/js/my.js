@@ -27,13 +27,24 @@ function addSocialIcons() {
     }
 }
 
+function loadBigImage() {
+    let section = document.getElementById("section-hero");
+    section.style.backgroundImage = section.dataset.imagesrc;
+}
+
 document.addEventListener("DOMContentLoaded", function(){
     addSocialIcons();
+    loadBigImage();
 });
+
 
 // Smooth scroll
 $('a').on('click', function (event) {
-    if (event.target.hash.startsWith('#')) {
+    if (event.currentTarget.hash.startsWith('#top')) {
+        $('html, body').stop().animate({
+            scrollTop: 0
+        }, 700);
+    } else if (event.currentTarget.hash.startsWith('#')) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)

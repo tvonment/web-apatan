@@ -42,6 +42,7 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "/images/backgrounds/bandxost.jpeg"
+    background_preimage   = "/images/backgrounds/bandxost-preimage.jpeg"
     heading               = ""
     tagline               = ""
     primary_button        = "Kontakt"
