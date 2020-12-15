@@ -1,4 +1,3 @@
-# Pipeline
 name: Azure Static Web App CI/CD
 
 on:
