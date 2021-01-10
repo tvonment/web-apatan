@@ -27,6 +27,18 @@ function addSocialIcons() {
     }
 }
 
+function loadAppleMusicEmbed() {
+    let element = document.getElementById("applemusic-wrapper");
+    element.innerHTML =  '<iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/ch/album/in-contrast-ep/1538748382"></iframe>';
+}
+
+function loadYoutubeVideos() {
+    let elements = document.querySelectorAll('[data-youtubeid]');    ;
+    for (let element of elements) {
+        element.innerHTML = '<iframe height="450" style="width:100%;overflow:hidden;background:transparent;" src="https://www.youtube.com/embed/' + element.dataset.youtubeid + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+    }
+}
+
 function loadBackgroundImages() {
     let elements = document.querySelectorAll('[data-imagesrc]');
     for (let element of elements) {
@@ -46,6 +58,8 @@ document.addEventListener("DOMContentLoaded", function(){
     addSocialIcons();
     loadBackgroundImages();
     reloadImages();
+    loadAppleMusicEmbed();
+    loadYoutubeVideos();
 });
 
 $('.navbar-toggler').on('click', function () {
