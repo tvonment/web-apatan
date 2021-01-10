@@ -1,2 +1,2 @@
 # web-apatan
-Official Homepage
+Official Homepage.
