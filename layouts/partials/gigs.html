@@ -15,7 +15,9 @@
   <section class="site-blog">
     <div class="container">
       <div class="row">
+        {{ $counter := 0 }}
         {{ range where .gigs "date" "ge" (dateFormat "2006-01-07T00:00:00Z" now) }}
+        {{ add $counter 1 }}
         <div class="col-lg-6">
           <article class="site-blog-post">
             {{ with .image }}
@@ -32,6 +34,11 @@
               {{ end }}
             </div>
           </article>
+        </div>
+        {{ end }}
+        {{ if eq $counter 0 }}
+        <div class="col">
+          <p style="text-align: center; font-style: italic; font-size: 1.5rem;">Leider sind momentan keine Gigs geplant.</p>
         </div>
         {{ end }}
       </div>
