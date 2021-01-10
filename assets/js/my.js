@@ -46,10 +46,9 @@ function loadBackgroundImages() {
     }
 }
 
-function reloadImages() {
+function loadImages() {
     let imagetags = document.querySelectorAll('[data-reloadsrc]');
     for (let img of imagetags) {
-        console.log(img)
         img.src = img.dataset.reloadsrc;
     }
 }
@@ -57,7 +56,7 @@ function reloadImages() {
 document.addEventListener("DOMContentLoaded", function(){
     addSocialIcons();
     loadBackgroundImages();
-    reloadImages();
+    loadImages();
     loadAppleMusicEmbed();
     loadYoutubeVideos();
 });
