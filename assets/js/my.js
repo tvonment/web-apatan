@@ -27,14 +27,25 @@ function addSocialIcons() {
     }
 }
 
-function loadBigImage() {
-    let section = document.getElementById("section-hero");
-    section.style.backgroundImage = section.dataset.imagesrc;
+function loadBackgroundImages() {
+    let elements = document.querySelectorAll('[data-imagesrc]');
+    for (let element of elements) {
+        element.style.backgroundImage = element.dataset.imagesrc;
+    }
+}
+
+function reloadImages() {
+    let imagetags = document.querySelectorAll('[data-reloadsrc]');
+    for (let img of imagetags) {
+        console.log(img)
+        img.src = img.dataset.reloadsrc;
+    }
 }
 
 document.addEventListener("DOMContentLoaded", function(){
     addSocialIcons();
-    loadBigImage();
+    loadBackgroundImages();
+    reloadImages();
 });
 
 $('.navbar-toggler').on('click', function () {

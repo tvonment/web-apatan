@@ -22,7 +22,7 @@
           <article class="site-blog-post">
             {{ with .image }}
             <div class="site-blog-post-thumb">
-              <img src="{{ . | absURL }}" alt="post-thumb">
+              <img src="" data-reloadsrc="{{ . | absURL }}" alt="post-thumb">
             </div>
             {{ end }}
             <div class="site-blog-post-content">
